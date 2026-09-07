@@ -1,4 +1,4 @@
-package com.aynimascotas.myapplication3
+package com.aynimascotas.unidad1.ruta3
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -30,21 +30,21 @@ fun TarjetaPresentacionScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFD2E8D4))
+            .background(Color(0xFFD2E8D4)),
     ) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(16.dp),
             verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
+            horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Image(
                 painter = painterResource(id = R.drawable.ic_launcher_foreground),
                 contentDescription = "Icono de perfil de usuario",
                 modifier = Modifier
                     .size(120.dp)
-                    .background(Color(0xFF073042))
+                    .background(Color(0xFF073042)),
             )
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -53,7 +53,7 @@ fun TarjetaPresentacionScreen(modifier: Modifier = Modifier) {
                 text = "Angel Cotrina",
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFF1B1B1B)
+                color = Color(0xFF1B1B1B),
             )
 
             Text(
@@ -61,7 +61,7 @@ fun TarjetaPresentacionScreen(modifier: Modifier = Modifier) {
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Medium,
                 color = Color(0xFF006D3B),
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
             )
         }
 
@@ -69,7 +69,7 @@ fun TarjetaPresentacionScreen(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .align(Alignment.BottomCenter)
                 .padding(bottom = 32.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+            horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             ContactoRow(texto = "(+51)994896318")
             ContactoRow(texto = "@angel.cotrina28")
@@ -82,18 +82,18 @@ fun TarjetaPresentacionScreen(modifier: Modifier = Modifier) {
 fun ContactoRow(texto: String) {
     Row(
         modifier = Modifier.padding(8.dp),
-        verticalAlignment = Alignment.CenterVertically
+        verticalAlignment = Alignment.CenterVertically,
     ) {
         Image(
             painter = painterResource(id = R.drawable.ic_launcher_foreground),
             contentDescription = null,
-            modifier = Modifier.size(24.dp)
+            modifier = Modifier.size(24.dp),
         )
         Spacer(modifier = Modifier.width(12.dp))
         Text(
             text = texto,
             fontSize = 14.sp,
-            color = Color(0xFF2D312E)
+            color = Color(0xFF2D312E),
         )
     }
 }

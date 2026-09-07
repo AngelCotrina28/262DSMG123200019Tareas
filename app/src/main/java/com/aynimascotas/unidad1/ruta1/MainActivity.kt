@@ -1,4 +1,4 @@
-package com.aynimascotas.myapplication
+package com.aynimascotas.unidad1.ruta1
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.aynimascotas.myapplication.ui.theme.MyApplicationTheme
+import com.aynimascotas.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                         text = resultadoTarjeta,
                         modifier = Modifier
                             .padding(innerPadding)
-                            .padding(16.dp)
+                            .padding(16.dp),
                     )
                 }
             }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(text: String, modifier: Modifier = Modifier) {
     Text(
         text = text,
-        modifier = modifier
+        modifier = modifier,
     )
 }
 
@@ -52,20 +52,18 @@ fun GreetingPreview() {
     }
 }
 
-
 fun explicarYGenerarTarjeta(): String {
     val destinatario = "Héctor"
     val edadExplicita = 20
-    var impresionesRealizadas = 0
-    impresionesRealizadas = 1
+    val impresionesRealizadas = 1
 
     println("--- Tarjeta #$impresionesRealizadas ---")
     println("Preparando felicitación para $destinatario (${edadExplicita + 1} años el próximo año)...")
 
     val tarjeta = generarTarjetaCumpleanos(
         nombreDestinatario = destinatario,
-        remitente = "Valeria",
-        edad = edadExplicita
+        remitente = "Angel",
+        edad = edadExplicita,
     )
 
     println("\n" + tarjeta)
@@ -76,7 +74,7 @@ fun generarTarjetaCumpleanos(
     nombreDestinatario: String,
     remitente: String,
     edad: Int,
-    ocasion: String = "Cumpleaños"
+    ocasion: String = "Cumpleaños",
 ): String {
     val borde = "=========================================="
     val encabezado = "¡Feliz $ocasion, $nombreDestinatario!"

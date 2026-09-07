@@ -1,4 +1,4 @@
-package com.aynimascotas.myapplication.ui.theme
+package com.aynimascotas.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
