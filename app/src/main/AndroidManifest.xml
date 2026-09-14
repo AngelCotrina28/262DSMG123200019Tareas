@@ -40,6 +40,24 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aynimascotas.unidad3.ruta1.MainActivityUnidad3Ruta1"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aynimascotas.unidad3.ruta2.MainActivityUnidad3Ruta2"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aynimascotas.unidad3.ruta3.MainActivityUnidad3Ruta3"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
