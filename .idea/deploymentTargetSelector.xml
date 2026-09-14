@@ -6,23 +6,15 @@
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity">
+      <SelectionState runConfigName="MainActivityUnidad3Ruta1">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity3">
+      <SelectionState runConfigName="MainActivityUnidad3Ruta2">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="MainActivityUnidad2Ruta1">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="MainActivityUnidad2Ruta2">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="MainActivityUnidad2Ruta3">
+      <SelectionState runConfigName="MainActivityUnidad3Ruta3">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>

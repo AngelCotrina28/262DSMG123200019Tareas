@@ -1,7 +1,7 @@
-package com.aynimascotas.unidad3.ruta2.data
+package com.aynimascotas.unidad3.ruta3.data
 
 import com.aynimascotas.myapplication.R
-import com.aynimascotas.unidad3.ruta2.model.Dog
+import com.aynimascotas.unidad3.ruta3.model.Dog
 
 object DogDatasource {
     val dogs = listOf(

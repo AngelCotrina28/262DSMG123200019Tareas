@@ -1,4 +1,4 @@
-package com.aynimascotas.unidad3.ruta2.model
+package com.aynimascotas.unidad3.ruta3.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
