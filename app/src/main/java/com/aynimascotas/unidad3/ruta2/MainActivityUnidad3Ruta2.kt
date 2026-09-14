@@ -12,7 +12,7 @@ class MainActivityUnidad3Ruta2 : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                WoofApp()
+                AffirmationsApp()
             }
         }
     }
